@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+header, main, aside, footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+
+.banner {
+    background-color: blueviolet;
+    width: 100%;
+    height: 150px;
+}
+
+.main-container {
+    background-color: aquamarine;
+    width: 100%;
+    height: 500px;
+}
+
+.social-media {
+    background-color: aqua;
+    width: 100%;
+    height: 250px;
+}
+
+.aux {
+    background-color: greenyellow;
+    width: 100%;
+    height: 250px;
+}
+
+.footer-left {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 150px;
+}
+
+.footer-right {
+    background-color: brown;
+    width: 100%;
+    height: 150px;
+}

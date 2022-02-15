@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+.c1 {
+    width: 25%;
+}
+
+.c4 {
+    width: 75%;
+}

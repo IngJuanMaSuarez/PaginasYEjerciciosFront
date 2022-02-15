@@ -1,0 +1,78 @@
+:root {
+    --background-header: #363636;
+    --background-nav-top: #3c3c3c;
+    --background-nav-botton: #727272;
+    --background-color-overview: #f0f0f0;
+    --letter-nav-top: #e6e9ed;
+    --small: 1.2rem;
+    --medium: 1.6rem;
+    --large: 2rem;
+    --xlarge: 4rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main-header {
+    background-image: url("https://img.pokemondb.net/design/header2018z-md.png");
+    background-color: var(--background-header);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10rem;
+    width: 100vw;
+}
+
+.nav-top {
+    background-color: var(--background-nav-top);
+    font-size: var(--medium);
+    height: 6rem;
+}
+
+.nav-top ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-top ul li figure img {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.nav-top a {
+    color: var(--letter-nav-top);
+    text-decoration: none;
+}
+
+.nav-botton {
+    background-color: var(--background-nav-botton);
+    height: 4rem;
+}
+
+.main-title {
+    font-size: var(--xlarge);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 2.4rem;
+}
+
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.overview {
+    font-size: medium;
+    background-color: var(--background-color-overview);
+    padding: 2.4rem;
+    border-radius: 2%;
+    width: 80%;
+}
